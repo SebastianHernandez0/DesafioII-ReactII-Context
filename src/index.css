@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #43a047;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* gallery */
+
+.gallery__cards{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.gallery .photo {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+
+.gallery .photo:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+.photo__desc{
+  color: white;
+  position: relative;
+  bottom: 10%;
+}
+
+.icon{
+  position: relative;
+  bottom: 89%;
+  left: 40%;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.fav__h1{
+  text-align: center;
+  color: #51aa56;
+}
+
+.favorites__h1{
+  text-align: center;
+  color: #43a047;
+}
